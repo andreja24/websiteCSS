@@ -44,9 +44,15 @@ button, .cube, .four div{
 .cubes, .subtext{
     display:flex;
     justify-content: center;
+    align-items: center;
     justify-content: space-between;
     flex-wrap:wrap;
-    width:800px;
+    width:830px;
+}
+.two div div{
+    width: 845px;
+    justify-content: space-around;
+    margin-left: -22px;
 }
 .two div img{
     width: 170px;
