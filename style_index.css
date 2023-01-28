@@ -1,0 +1,136 @@
+@font-face {
+    font-family:'Roboto_regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Roboto_regular', sans-serif;
+}
+.one{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+.image, .first{
+    height: 225px;
+    width: 500px;
+}
+.three{
+    background-color: #E5E7EB;
+}
+.two, .three{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button, .cube, .four div{
+    width: 110px;
+    height: 30px;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.three div{
+    width: 800px;
+    text-align: right;
+}
+.cubes, .subtext{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width:800px;
+}
+.two div img{
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3882F6;
+    background-color: white;
+}
+.four{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+.four div{
+    display: flex;
+    justify-content: space-around;
+    width:750px;
+    height:120px;
+    align-items: center;
+    background-color: #3882F6;
+}
+.four div div{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+}
+.footer, .header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    background-color: #1F2937;
+}
+.header div a{
+    margin-right: 10px;
+}
+.header div{
+    width: 1000px;
+}
+.logo{
+    float: left;
+}
+.one div h1{
+    font-size: 48px ;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    color: #F9FAF8;
+}
+h2, span,a{
+    font-size: 18px ;
+    margin-top: 0px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+h3, p{
+    font-size: 36px;
+    color: #1F2937;
+}
+.three div p{
+    margin-right:0;
+}
+h6, .three div span, .logo{
+    font-size: 24px;
+    margin:0;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+.three div span{
+    color: #1F2937;
+}
+.four div button{
+    border:1px solid white;
+}
+.four a{
+    margin-top: 25px;
+    color: #E5E7EB;
+}
+
+
+
+
+
+
